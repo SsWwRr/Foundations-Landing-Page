@@ -7,6 +7,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: -8px;
+}
+.hero-container{
+    width: 500px;
 }
 .name{
     font-weight: bolder;
@@ -26,6 +30,7 @@
     color: white;
     display: flex;
     justify-content: center;
+    margin: -8px;
 }
 .sub-first-main{
     display: flex;
@@ -92,6 +97,7 @@ a{
     display: flex;
     justify-content: center;
     height: 293px;
+    margin: -8px;
 }
 .sub-third-main{
     display: flex;
@@ -136,6 +142,7 @@ a{
     align-items: center;
     margin: 96.5px;
     border-radius: 4px;
+    
 }
 .bc-text{
     color: white;
@@ -148,4 +155,17 @@ a{
 }
 .button2{
     border-color: white;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+    margin: -8px;
+    
+}
+.copy{
+    color: white;
+    
 }
