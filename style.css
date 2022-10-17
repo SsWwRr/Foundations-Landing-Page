@@ -43,6 +43,15 @@
 button{
     background-color: #3882f6;
     color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: white;
+    border-width: 5px;
+    width: 90px;
+    height: 25px;
+    border: 2px solid black;
+}
+.button1{
+    border-color: #1F2937;
 }
 a{
     text-decoration: none;
@@ -110,4 +119,33 @@ a{
     margin-top: 70px;
     
 }
-
+.height-container{
+    height: 293px;
+}
+.white-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.blue-container{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    height: 100px;
+    align-items: center;
+    margin: 96.5px;
+    border-radius: 4px;
+}
+.bc-text{
+    color: white;
+    padding: 10px;
+    margin-right: 30px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 24px;
+}
+.button2{
+    border-color: white;
+}
